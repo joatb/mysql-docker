@@ -1,0 +1,1 @@
+docker exec -d mysql-docker sh -c 'mysqldump -uroot -p$MYSQL_ROOT_PASSWORD --all-databases > /backups/backup-`date +%Y%m%d_%H%M%S`.sql'
