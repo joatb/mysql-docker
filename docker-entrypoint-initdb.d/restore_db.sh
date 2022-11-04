@@ -1,0 +1,1 @@
+mysql -u root -p'123456' < /backups/$(ls -t /backups | sort | head -1)
