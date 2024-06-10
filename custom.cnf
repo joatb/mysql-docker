@@ -1,0 +1,5 @@
+[mysqld]
+general_log = ON
+log_output = TABLE
+sql_mode = ''
+bind-address = 0.0.0.0
